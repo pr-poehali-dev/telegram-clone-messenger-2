@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 import Avatar from "./Avatar";
 
 interface ProfilePanelProps {
-  user: { name: string; email: string };
+  user: { name: string; email: string; nick?: string };
   onLogout: () => void;
 }
 
