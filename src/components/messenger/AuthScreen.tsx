@@ -35,8 +35,8 @@ export default function AuthScreen({ onAuth }: AuthScreenProps) {
         {/* Logo */}
         <div className="text-center mb-10">
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-3xl mb-4 animate-glow"
-            style={{ background: "linear-gradient(135deg, #7c3aed, #06b6d4)" }}>
-            <Icon name="Zap" size={36} className="text-white" />
+            style={{ background: "linear-gradient(135deg, #b91c1c, #ef4444)", boxShadow: "0 0 40px rgba(239,68,68,0.5)" }}>
+            <span style={{ fontSize: 48, fontWeight: 900, color: "white", lineHeight: 1, fontFamily: "Georgia, serif", letterSpacing: "-2px" }}>F</span>
           </div>
           <h1 className="text-4xl font-black gradient-text mb-2">FOLOZOGER</h1>
           <p className="text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
