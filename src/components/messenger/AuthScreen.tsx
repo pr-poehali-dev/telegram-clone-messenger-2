@@ -38,9 +38,9 @@ export default function AuthScreen({ onAuth }: AuthScreenProps) {
             style={{ background: "linear-gradient(135deg, #7c3aed, #06b6d4)" }}>
             <Icon name="Zap" size={36} className="text-white" />
           </div>
-          <h1 className="text-4xl font-black gradient-text mb-2">Pulse</h1>
+          <h1 className="text-4xl font-black gradient-text mb-2">FOLOZOGER</h1>
           <p className="text-sm" style={{ color: "rgba(255,255,255,0.4)" }}>
-            Мессенджер нового поколения
+            Мессенджер для игроков FOLOZOW MTA
           </p>
         </div>
 
@@ -135,11 +135,7 @@ export default function AuthScreen({ onAuth }: AuthScreenProps) {
             </button>
           </form>
 
-          {mode === "login" && (
-            <p className="text-center text-xs mt-4" style={{ color: "rgba(255,255,255,0.25)" }}>
-              Забыли пароль? <span className="underline cursor-pointer" style={{ color: "rgba(124,58,237,0.8)" }}>Восстановить</span>
-            </p>
-          )}
+
         </div>
 
         <p className="text-center text-xs mt-6" style={{ color: "rgba(255,255,255,0.2)" }}>
